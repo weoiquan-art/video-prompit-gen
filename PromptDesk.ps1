@@ -1,4 +1,4 @@
-#requires -Version 5.1
+﻿#requires -Version 5.1
 
 [CmdletBinding()]
 param(
@@ -666,4 +666,3 @@ if ($SelfTest) {
 }
 
 Start-PromptDesk -DataPath (Get-PromptDeskDataPath)
-
